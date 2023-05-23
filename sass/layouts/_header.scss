@@ -7,11 +7,22 @@
 display: flex;
 align-items: center;
 justify-content: space-between ;
+@include media-tablet{
+    padding-left: 24px;
 }
-.header__buttons>.button{
+}
+.header__logo-line{
+    display: flex;
+}
+.header__buttons{
+    >.button{
 margin-left:14px;
-}
-.header__buttons>.button:first-child{
+&:first-child{
     margin-left:14px;
     margin-left: 0;
+        }
     }
+    @include media-mobile{
+        display: none;
+    }
+}

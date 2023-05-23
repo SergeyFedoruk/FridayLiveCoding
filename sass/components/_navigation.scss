@@ -12,3 +12,8 @@
         color: $color-primary
     }
 }
+.header__navigation{
+    @include media-tablet{
+        display: none;
+    }
+}
