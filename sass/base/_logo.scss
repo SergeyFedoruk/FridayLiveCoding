@@ -3,6 +3,7 @@
 }
 .logo-object{
     width: 160px;
+    height: 30px;
 }
 
 .logo-path{
@@ -11,7 +12,10 @@
 
 
 .logo-svg:hover{
+    cursor: pointer;
+    &:hover{
     .logo-path{
         fill: $color-primary;
     }
+  }
 }
