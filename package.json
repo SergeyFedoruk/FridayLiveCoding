@@ -5,15 +5,30 @@
   "main": "index.js",
   "scripts": {
     "style": "sass --watch src/sass/style.scss src/sass/style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "normalize-scss": "^7.0.1",
-    "webpack": "^5.84.1"
+    "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "icon-font-loader": "^4.0.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "svg-inline-loader": "^0.8.2",
+    "svg-sprite-webpack-plugin": "^1.0.4",
+    "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1"
   }
 }
