@@ -448,7 +448,7 @@ h5 {
   color: #F03E3D;
 }
 .link-button:hover .ico_play {
-  background-image: url("../src/img/icons/play-hover.svg");
+  background-image: url("./../../img/icons/play-hover.svg");
 }
 
 .link-button__text {
@@ -513,14 +513,14 @@ h5 {
 }
 
 .ico_phone {
-  background-image: url("../src/img/icons/phone.svg");
+  background-image: url("../../src/img/icons/phone.svg");
   width: 10px;
   height: 12px;
   rotate: 30deg;
 }
 
 .ico_letter {
-  background-image: url("../src/img/icons/letter.svg");
+  background-image: url("../../src/img/icons/letter.svg");
   width: 10.45px;
   height: 7.19px;
 }
